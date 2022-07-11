@@ -1,0 +1,30 @@
+*{
+    color: #D8DBE2
+}
+
+html{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+
+}
+
+body{
+    background-color: #00000000;
+
+}
+
+#second-container{
+    background-color: rgba(27,40,69,0.2)
+}
+
+button{
+    background-color: transparent;
+    color: #D8DBE2 !important;
+}
+
+#parrafo{
+}
