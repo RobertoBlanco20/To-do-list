@@ -35,9 +35,10 @@ input{
     color: #ffffff;
 }
 
+
 i{
     border: 1px solid #fff;
-    border-radius: 50%;
+    border-radius: 8%;
     padding: 0.3em;
 }
 
