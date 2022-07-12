@@ -1,4 +1,4 @@
-const input = document.getElementById('input');
+const input = document.getElementById('#input');
 
 console.log(input)
 
@@ -6,7 +6,6 @@ eventlisteners();
 function eventlisteners(){
     input.addEventListener('click', formValue)
 }
-console.log('hola')
 
 
 function formValue(e){
