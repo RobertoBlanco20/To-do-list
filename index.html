@@ -22,10 +22,6 @@
     <!-- Fonts -->
 
 
-    <!-- JS -->
-    <script src="js/script.js"></script>
-
-
 </head>
 <body class="container">
     <h1 class="h1">Task List</h1>
@@ -34,25 +30,25 @@
     
     <form action="" method="get">
         <div class="div-father d-flex justify-content-center">
-            <input id="formulario" type="text" class="task-text mr-1">
+            <input placeholder="Write a task" maxlength="90" id="formulario" type="text" class="task-text mr-1">
             <button id="add" type="submit" class="task-button btn border border-3 rounded mr-1">+</button>
             <button id="reset" type="reset" class="task-button btn border border-3 rounded">Clear All</button>
         </div>
     </form>
 
     <!-- Empty -->
-    <div class="empty text-center mt-3 d-none">
-        <p>(Empty)</p>
+    <div class="empty text-center mt-3 ">
+        <p class="h3">(Empty)</p>
     </div>
 
     <!-- Tasks -->
 
         <div id="second-container" class=" container mt-3">
-            <div class="row border border-5">
-                <p id="parrafo" class="col-9 col-lg-10 mt-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis perspiciatis atque. 88caracteres</p> 
-                <div class="child-div-icon col-1 btn"><a href="#"><i class="check fa-solid fa-check bg-success"></i></a></i></div> 
-                <div class="col-1 btn"><a href="#"><i class="trash fa-solid fa-trash bg-danger "></i></a></i></div>
-            </div>
+<!--             <div class="row border border-5">
+                <p class="col-9 col-lg-10 mt-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis perspiciatis atque. 88caracteres</p> 
+                <div class="child-div-icon col-1 btn"><a href="#"><i class="check fa-solid fa-check bg-success"></i></a></div> 
+                <div class="col-1 btn"><a href="#"><i class="trash fa-solid fa-trash bg-danger "></i></a></div>
+            </div> -->
         </div>
         
 
@@ -62,5 +58,8 @@
     </div>
 
 
+    
+    <!-- JS -->
+    <script src="js/script.js"></script>
 </body>
 </html>
