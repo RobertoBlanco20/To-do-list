@@ -45,6 +45,10 @@ i{
 .check:active{
     background-color: #009500; 
 }
+/* 
+li p{
+    overflow: hidden;
+} */
 
 
 @media (max-width: 460px){
@@ -57,7 +61,4 @@ i{
         width: 50%
     }
 
-    .trash, .check{
-        margin-right: 1em;
-    }
 }
